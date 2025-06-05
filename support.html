@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Mindbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script defer src="{{ url_for('static', filename='chatbot.js') }}"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-md fixed w-full top-0 left-0 z-50">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a href="{{ url_for('index') }}" class="-ml-10">
+                <img src="{{ url_for('static', filename='mindbotlogo.png') }}"
+                     alt="Mindbot Logo"
+                     class="h-11 w-auto object-contain">
+            </a>
+            <div>
+                <a href="{{ url_for('index') }}" class="text-gray-700 hover:text-purple-600 px-4">Home</a>
+                <a href="{{ url_for('about') }}" class="text-gray-700 hover:text-purple-600 px-4">About</a>
+                <a href="{{ url_for('support') }}" class="text-gray-700 hover:text-purple-600 px-4">Support</a>
+                <a href="{{ url_for('chatbot') }}" class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-500 transition-all duration-300">Try Chatbot</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center py-20 bg-purple-600 text-white mt-16">
+        <h1 class="text-3xl font-bold">Need Help?</h1>
+        <p class="mt-2">Reach out for support or more information about our chatbot.</p>
+    </header>
+
+    <section class="relative container mx-auto mt-12">
+        <!-- Image on top of the Contact Us container -->
+        <img src="{{ url_for('static', filename='koala-support.png') }}" 
+             alt="Koala Icon" 
+             class="absolute left-1/2 transform -translate-x-1/2 -top-15 w-22 h-20 z-10">
+
+        <div class="relative p-6 bg-white shadow-lg rounded-lg w-3/4 md:w-1/2 mx-auto">
+            <h2 class="text-2xl font-semibold text-center mb-4 mt-10">Contact Us</h2>
+
+            <form id="contactForm" class="space-y-4">
+                <label class="block">
+                    <span class="text-gray-700">Your Name</span>
+                    <input type="text" id="name" class="mt-1 block w-full p-2 border rounded-md" placeholder="Enter your name" required>
+                </label>
+
+                <label class="block">
+                    <span class="text-gray-700">Email Address</span>
+                    <input type="email" id="email" class="mt-1 block w-full p-2 border rounded-md" placeholder="Enter your email" required>
+                </label>
+
+                <label class="block">
+                    <span class="text-gray-700">Message</span>
+                    <textarea id="message" class="mt-1 block w-full p-2 border rounded-md" rows="4" placeholder="Type your message..." required></textarea>
+                </label>
+
+                <button type="submit" class="w-full bg-purple-600 text-white py-2 rounded-md hover:bg-purple-500 transition-all duration-300">Send Message</button>
+            </form>
+
+            <p id="formMessage" class="text-green-600 mt-4 hidden text-center"></p>
+        </div>
+    </section>
+
+    <section class="container mx-auto mt-12 text-center">
+        <h2 class="text-2xl font-semibold">Other Support Options</h2>
+        <p class="text-gray-700 mt-2">You can also contact University of Northampton’s support services:</p>
+        
+        <div class="mt-6">
+            <p class="text-lg"><strong>Email:</strong> <a href="mailto:support@uon.ac.uk" class="text-blue-600 hover:underline">support@uon.ac.uk</a></p>
+            <p class="text-lg"><strong>Phone:</strong> +44 1234 567890</p>
+            <p class="text-lg"><strong>Office Hours:</strong> Mon-Fri, 9 AM - 5 PM</p>
+        </div>
+    </section>
+
+    <footer class="text-center mt-12 py-6 bg-gray-800 text-white">
+        <p>© 2025 Mindbot | <a href="{{ url_for('index') }}">Home</a> | <a href="{{ url_for('about') }}">About</a></p>
+    </footer>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            document.getElementById("formMessage").innerText = "Thank you! Your message has been sent.";
+            document.getElementById("formMessage").classList.remove("hidden");
+            this.reset();
+        });
+    </script>
+</body>
+</html>
