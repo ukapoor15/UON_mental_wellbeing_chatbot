@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UON Wellbeing Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script defer src="{{ url_for('static', filename='chatbot.js') }}"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full top-0 left-0 z-50 py-2">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="{{ url_for('index') }}" class="-ml-10">
+                <img src="{{ url_for('static', filename='mindbotlogo.png') }}"
+                     alt="Mindbot Logo"
+                     class="h-11 w-auto object-contain">
+            </a>
+            <div>
+                <a href="{{ url_for('index') }}" class="text-gray-700 hover:text-purple-600 px-4">Home</a>
+                <a href="{{ url_for('about') }}" class="text-gray-700 hover:text-purple-600 px-4">About</a>
+                <a href="{{ url_for('support') }}" class="text-gray-700 hover:text-purple-600 px-4">Support</a>
+                <a href="{{ url_for('chatbot') }}" class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-500 transition-all duration-300">Try Chatbot</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="text-center py-20 bg-purple-600 text-white mt-14">
+        <h1 class="text-4xl font-bold animate-fadeIn">Welcome to Mindbot</h1>
+        <p class="mt-2 text-lg animate-slideUp">Get instant support for stress, loneliness, and mental wellbeing.</p>
+        
+<!-- Try the Chatbot Button with Bigger Koala and More Spacing -->
+<a href="{{ url_for('chatbot') }}" class="relative mt-12 inline-block bg-teal-400 px-6 py-3 rounded-full text-black font-semibold hover:bg-teal-300 transition-all duration-300">
+    <img src="{{ url_for('static', filename='koala-trychatbot.png') }}"
+         alt="Koala"
+         class="absolute -top-16 left-10 h-20 w-20 object-contain pointer-events-none">
+    Try the Chatbot
+</a>
+
+
+    </header>
+
+    <!-- Features Section -->
+    <section class="container mx-auto mt-12 text-center">
+        <h2 class="text-3xl font-semibold">Why Use Our Chatbot?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+                <h3 class="text-xl font-bold">🕒 24/7 Support</h3>
+                <p>Chat anytime for guidance on mental wellbeing.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+                <h3 class="text-xl font-bold">🎓 Student-Focused</h3>
+                <p>Designed for UON students with relevant resources.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+                <h3 class="text-xl font-bold">🔒 Confidential</h3>
+                <p>No personal data collected – fully anonymous and secure.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="text-center mt-12">
+        <h2 class="text-3xl font-semibold">Start a Conversation</h2>
+        <p class="text-gray-700 mt-2">Click below to try the chatbot now.</p>
+        <a href="{{ url_for('chatbot') }}" class="mt-6 inline-block bg-purple-600 px-6 py-3 rounded-full text-white font-semibold hover:bg-purple-500 transition-all duration-300">Chat Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-12 py-6 bg-gray-800 text-white">
+        <p>© 2025 Mindbot | <a href="{{ url_for('about') }}" class="hover:underline">About</a> | <a href="{{ url_for('support') }}" class="hover:underline">Support</a></p>
+    </footer>
+</body>
+</html>
