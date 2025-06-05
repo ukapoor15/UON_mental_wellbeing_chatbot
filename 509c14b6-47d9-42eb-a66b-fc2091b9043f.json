@@ -1,0 +1,482 @@
+[
+  {
+    "timestamp": "2025-05-21T00:12:45.251529",
+    "role": "user",
+    "message": "give me anxiety tips"
+  },
+  {
+    "timestamp": "2025-05-21T00:12:45.252494",
+    "role": "assistant",
+    "message": "Practice deep breathing exercises, engage in regular physical activity, and try mindfulness or meditation to help manage anxiety."
+  },
+  {
+    "timestamp": "2025-05-21T00:13:47.392264",
+    "role": "user",
+    "message": "distract me from stress"
+  },
+  {
+    "timestamp": "2025-05-21T00:13:47.394285",
+    "role": "assistant",
+    "message": "Take deep breaths and focus on something you enjoy or find relaxing, like listening to music or going for a walk."
+  },
+  {
+    "timestamp": "2025-05-21T00:26:03.672796",
+    "role": "user",
+    "message": "sup"
+  },
+  {
+    "timestamp": "2025-05-21T00:26:03.676095",
+    "role": "assistant",
+    "message": "Hello! How are you feeling today?"
+  },
+  {
+    "timestamp": "2025-05-21T01:46:15.085215",
+    "role": "user",
+    "message": "uni is stressful"
+  },
+  {
+    "timestamp": "2025-05-21T01:46:15.085215",
+    "role": "assistant",
+    "message": "It's normal to feel stressed in university, remember to take breaks, practice self-care, and reach out for support when needed."
+  },
+  {
+    "timestamp": "2025-05-21T18:22:02.928116",
+    "role": "user",
+    "message": "i am feeling great today"
+  },
+  {
+    "timestamp": "2025-05-21T18:22:02.933150",
+    "role": "assistant",
+    "message": "That's wonderful to hear! Keep up the positive energy."
+  },
+  {
+    "timestamp": "2025-05-22T00:12:08.090045",
+    "role": "user",
+    "message": "hi"
+  },
+  {
+    "timestamp": "2025-05-22T00:12:08.106051",
+    "role": "assistant",
+    "message": "Hello! How can I support you today?"
+  },
+  {
+    "timestamp": "2025-05-22T00:12:38.609870",
+    "role": "user",
+    "message": "i miss my friends."
+  },
+  {
+    "timestamp": "2025-05-22T00:12:38.669808",
+    "role": "assistant",
+    "message": "It's completely normal to miss your friends, try reaching out to them through a call or message to stay connected."
+  },
+  {
+    "timestamp": "2025-05-22T00:13:23.834308",
+    "role": "user",
+    "message": "nothing much going on"
+  },
+  {
+    "timestamp": "2025-05-22T00:13:23.884174",
+    "role": "assistant",
+    "message": "It's okay to have quiet moments, take this time to relax and recharge."
+  },
+  {
+    "timestamp": "2025-05-22T00:18:43.923603",
+    "role": "user",
+    "message": "i am feeling great today"
+  },
+  {
+    "timestamp": "2025-05-22T00:18:43.938484",
+    "role": "assistant",
+    "message": "That's wonderful to hear! Keep up the positive energy and enjoy your day."
+  },
+  {
+    "timestamp": "2025-05-22T00:22:47.598784",
+    "role": "user",
+    "message": "I'm so frustrated with school."
+  },
+  {
+    "timestamp": "2025-05-22T00:22:47.656450",
+    "role": "assistant",
+    "message": "I'm sorry to hear that. It's okay to feel frustrated, remember to take breaks and practice self-care."
+  },
+  {
+    "timestamp": "2025-05-22T00:32:14.010545",
+    "role": "user",
+    "message": "I'm so frustrated with school."
+  },
+  {
+    "timestamp": "2025-05-22T00:32:14.074301",
+    "role": "assistant",
+    "message": "It's okay to feel frustrated, take a break and try to focus on one task at a time."
+  },
+  {
+    "timestamp": "2025-05-22T00:40:08.843239",
+    "role": "user",
+    "message": "i am feeling great today"
+  },
+  {
+    "timestamp": "2025-05-22T00:40:08.896273",
+    "role": "assistant",
+    "message": "That's wonderful to hear! Keep up the positive attitude."
+  },
+  {
+    "timestamp": "2025-05-22T00:40:19.298799",
+    "role": "user",
+    "message": "i miss my friends"
+  },
+  {
+    "timestamp": "2025-05-22T00:40:19.338651",
+    "role": "assistant",
+    "message": "It's natural to miss your friends, try reaching out to them to connect virtually or plan a future get-together."
+  },
+  {
+    "timestamp": "2025-05-22T00:44:42.559464",
+    "role": "user",
+    "message": "im so frsutrated with school"
+  },
+  {
+    "timestamp": "2025-05-22T00:44:42.559464",
+    "role": "assistant",
+    "message": "It's okay to feel frustrated, take a break, breathe deeply, and try to tackle one task at a time."
+  },
+  {
+    "timestamp": "2025-05-22T00:45:14.333282",
+    "role": "user",
+    "message": "i miss my friends"
+  },
+  {
+    "timestamp": "2025-05-22T00:45:14.349546",
+    "role": "assistant",
+    "message": "It's completely normal to miss your friends, try reaching out to them to stay connected."
+  },
+  {
+    "timestamp": "2025-05-22T00:47:50.241992",
+    "role": "user",
+    "message": "i am feeling great today"
+  },
+  {
+    "timestamp": "2025-05-22T00:47:50.282147",
+    "role": "assistant",
+    "message": "I'm glad to hear that, remember to keep taking care of yourself."
+  },
+  {
+    "timestamp": "2025-05-22T01:33:10.722936",
+    "role": "user",
+    "message": "i am stressed due to my exams"
+  },
+  {
+    "timestamp": "2025-05-22T01:33:10.787282",
+    "role": "assistant",
+    "message": "Remember to take breaks, practice deep breathing, and prioritize self-care during this busy time. You've got this!\n\n\ud83d\udccc UON Tip: For academic help, you can access UON's Academic Support services or visit the library helpdesk."
+  },
+  {
+    "timestamp": "2025-05-22T17:49:56.855528",
+    "role": "user",
+    "message": "i am feeling stressed"
+  },
+  {
+    "timestamp": "2025-05-22T17:49:56.858552",
+    "role": "assistant",
+    "message": "I'm sorry to hear that. Remember to take deep breaths and try to focus on one thing at a time."
+  },
+  {
+    "timestamp": "2025-05-22T17:52:02.496719",
+    "role": "user",
+    "message": "hi"
+  },
+  {
+    "timestamp": "2025-05-22T17:52:02.556943",
+    "role": "assistant",
+    "message": "Hello! How are you feeling today?"
+  },
+  {
+    "timestamp": "2025-05-22T17:53:38.510833",
+    "role": "user",
+    "message": "i feel like i have a panic attack"
+  },
+  {
+    "timestamp": "2025-05-22T17:53:38.510833",
+    "role": "assistant",
+    "message": "Take slow, deep breaths and try to focus on something calming. You can also try grounding techniques like 5-4-3-2-\n\n\ud83d\udccc UON Tip: You can contact UON Counselling Services here: https://www.northampton.ac.uk/student-life/support/"
+  },
+  {
+    "timestamp": "2025-05-22T17:54:34.046669",
+    "role": "user",
+    "message": "i am getting panic"
+  },
+  {
+    "timestamp": "2025-05-22T17:54:34.077095",
+    "role": "assistant",
+    "message": "Take deep breaths and try to focus on the present moment. Remember that panic attacks are temporary and you will get through it."
+  },
+  {
+    "timestamp": "2025-05-22T17:54:56.745369",
+    "role": "user",
+    "message": "i hate people"
+  },
+  {
+    "timestamp": "2025-05-22T17:54:56.782789",
+    "role": "assistant",
+    "message": "It's okay to feel that way sometimes, but remember that not everyone is the same. It's important to take care of yourself and set boundaries with"
+  },
+  {
+    "timestamp": "2025-05-22T17:55:09.755496",
+    "role": "user",
+    "message": "i hate"
+  },
+  {
+    "timestamp": "2025-05-22T17:55:09.812857",
+    "role": "assistant",
+    "message": "I'm here to listen. What's on your mind? Remember, it's okay to feel this way, but there are ways to cope."
+  },
+  {
+    "timestamp": "2025-05-22T19:39:14.955581",
+    "role": "user",
+    "message": "i miss my friends"
+  },
+  {
+    "timestamp": "2025-05-22T19:39:14.962702",
+    "role": "assistant",
+    "message": "It's completely normal to miss your friends, why not reach out to them to connect?"
+  },
+  {
+    "timestamp": "2025-05-22T19:42:09.255083",
+    "role": "user",
+    "message": "im feeling stressed."
+  },
+  {
+    "timestamp": "2025-05-22T19:42:09.278307",
+    "role": "assistant",
+    "message": "I'm sorry to hear that. Remember to take deep breaths and try to focus on one thing at a time."
+  },
+  {
+    "timestamp": "2025-05-22T19:42:20.501821",
+    "role": "user",
+    "message": "im stressed."
+  },
+  {
+    "timestamp": "2025-05-22T19:42:20.530125",
+    "role": "assistant",
+    "message": "It's okay to feel stressed, remember to take deep breaths and practice self-care."
+  },
+  {
+    "timestamp": "2025-05-22T19:52:55.702533",
+    "role": "user",
+    "message": "I'm feeling stressed"
+  },
+  {
+    "timestamp": "2025-05-22T19:52:55.708411",
+    "role": "assistant",
+    "message": "I'm sorry to hear that. Remember to take deep breaths and try to focus on one thing at a time."
+  },
+  {
+    "timestamp": "2025-05-22T19:53:47.175455",
+    "role": "user",
+    "message": "nothing much going on"
+  },
+  {
+    "timestamp": "2025-05-22T19:53:47.288522",
+    "role": "assistant",
+    "message": "It's okay to have quiet moments, it's important to take time for yourself and relax."
+  },
+  {
+    "timestamp": "2025-05-23T00:33:16.830025",
+    "role": "user",
+    "message": "I miss my friends"
+  },
+  {
+    "timestamp": "2025-05-23T00:33:16.830025",
+    "role": "assistant",
+    "message": "It's understandable to miss your friends, try reaching out to them through a call or message to stay connected."
+  },
+  {
+    "timestamp": "2025-05-23T01:15:48.837897",
+    "role": "user",
+    "message": "how are you"
+  },
+  {
+    "timestamp": "2025-05-23T01:15:48.839908",
+    "role": "assistant",
+    "message": "I'm here to support you. How can I help?"
+  },
+  {
+    "timestamp": "2025-05-23T14:20:58.591096",
+    "role": "user",
+    "message": "hiii"
+  },
+  {
+    "timestamp": "2025-05-23T14:20:58.597384",
+    "role": "assistant",
+    "message": "Hello! How are you feeling today?"
+  },
+  {
+    "timestamp": "2025-05-23T14:21:06.070955",
+    "role": "user",
+    "message": "i am not good"
+  },
+  {
+    "timestamp": "2025-05-23T14:21:06.083736",
+    "role": "assistant",
+    "message": "I'm here for you, you are not alone. Remember to take deep breaths and try to focus on one small positive thing."
+  },
+  {
+    "timestamp": "2025-05-23T14:21:21.125214",
+    "role": "user",
+    "message": "i cant breathe"
+  },
+  {
+    "timestamp": "2025-05-23T14:21:21.133837",
+    "role": "assistant",
+    "message": "Take slow, deep breaths to help calm yourself down. If it persists, seek medical help immediately."
+  },
+  {
+    "timestamp": "2025-05-23T14:22:16.734530",
+    "role": "user",
+    "message": "why the mic is not working"
+  },
+  {
+    "timestamp": "2025-05-23T14:22:16.736932",
+    "role": "assistant",
+    "message": "Check if the microphone is properly connected and if the microphone settings are correctly configured on your device."
+  },
+  {
+    "timestamp": "2025-05-23T14:23:24.894689",
+    "role": "user",
+    "message": "hello"
+  },
+  {
+    "timestamp": "2025-05-23T14:23:24.894689",
+    "role": "assistant",
+    "message": "Hello! How can I support you today?"
+  },
+  {
+    "timestamp": "2025-05-23T14:25:25.827232",
+    "role": "user",
+    "message": "hi im akram"
+  },
+  {
+    "timestamp": "2025-05-23T14:25:25.837715",
+    "role": "assistant",
+    "message": "Hello Akram! How can I support you today?"
+  },
+  {
+    "timestamp": "2025-05-23T14:25:57.778930",
+    "role": "user",
+    "message": "my group mates are very toxic"
+  },
+  {
+    "timestamp": "2025-05-23T14:25:57.778930",
+    "role": "assistant",
+    "message": "I'm sorry to hear that. It's important to set boundaries and communicate openly with them about how their behavior is affecting you."
+  },
+  {
+    "timestamp": "2025-05-23T14:26:10.467638",
+    "role": "user",
+    "message": "what can i do because i might feel like commiting suicide"
+  },
+  {
+    "timestamp": "2025-05-23T14:26:10.485742",
+    "role": "assistant",
+    "message": "I'm here to help. It's important to reach out to a mental health professional or a helpline right away. You are not alone, and"
+  },
+  {
+    "timestamp": "2025-05-23T14:26:22.457573",
+    "role": "user",
+    "message": "and what?"
+  },
+  {
+    "timestamp": "2025-05-23T14:26:22.457573",
+    "role": "assistant",
+    "message": "It's okay to feel overwhelmed, take some deep breaths and try to focus on one thing at a time."
+  },
+  {
+    "timestamp": "2025-05-23T14:26:31.983587",
+    "role": "user",
+    "message": "can i get some support please"
+  },
+  {
+    "timestamp": "2025-05-23T14:26:31.989645",
+    "role": "assistant",
+    "message": "Of course, I'm here to support you. What's on your mind?"
+  },
+  {
+    "timestamp": "2025-05-23T14:26:45.293080",
+    "role": "user",
+    "message": "i might be failing in my course"
+  },
+  {
+    "timestamp": "2025-05-23T14:26:45.296893",
+    "role": "assistant",
+    "message": "It's okay to feel overwhelmed, reach out to your instructor or a counselor for support. Remember to prioritize self-care and seek help when needed."
+  },
+  {
+    "timestamp": "2025-05-23T14:26:53.984669",
+    "role": "user",
+    "message": "i hate AI"
+  },
+  {
+    "timestamp": "2025-05-23T14:26:54.000619",
+    "role": "assistant",
+    "message": "I'm sorry to hear that. It's okay to have mixed feelings about AI."
+  },
+  {
+    "timestamp": "2025-05-23T14:27:08.627832",
+    "role": "user",
+    "message": "thank you"
+  },
+  {
+    "timestamp": "2025-05-23T14:27:08.639702",
+    "role": "assistant",
+    "message": "You're welcome. Remember to take care of yourself."
+  },
+  {
+    "timestamp": "2025-05-23T14:28:31.643248",
+    "role": "user",
+    "message": "Hello how are you?"
+  },
+  {
+    "timestamp": "2025-05-23T14:28:31.656960",
+    "role": "assistant",
+    "message": "I'm here to help. How are you feeling today?"
+  },
+  {
+    "timestamp": "2025-05-23T14:28:50.488068",
+    "role": "user",
+    "message": "very sad"
+  },
+  {
+    "timestamp": "2025-05-23T14:28:50.488068",
+    "role": "assistant",
+    "message": "I'm sorry to hear that. It's okay to feel sad, remember to take care of yourself and reach out for support if you need it."
+  },
+  {
+    "timestamp": "2025-05-23T14:31:10.080620",
+    "role": "user",
+    "message": "I feel lonely most of the time is this normal ?#"
+  },
+  {
+    "timestamp": "2025-05-23T14:31:10.087238",
+    "role": "assistant",
+    "message": "Feeling lonely at times is common, but if it's persistent, consider reaching out to someone you trust or a mental health professional for support."
+  },
+  {
+    "timestamp": "2025-05-23T14:32:26.902275",
+    "role": "user",
+    "message": "I'm expeiencing panic attacks before exams making my performance bad help?"
+  },
+  {
+    "timestamp": "2025-05-23T14:32:26.910444",
+    "role": "assistant",
+    "message": "Take deep breaths and try progressive muscle relaxation techniques before the exam to help calm your nerves.\n\n\ud83d\udccc UON Tip: You can contact UON Counselling Services here: https://www.northampton.ac.uk/student-life/support/"
+  },
+  {
+    "timestamp": "2025-05-23T14:34:23.803473",
+    "role": "user",
+    "message": "I'm feeling suicidal what should I do right now"
+  },
+  {
+    "timestamp": "2025-05-23T14:34:23.812557",
+    "role": "assistant",
+    "message": "Please reach out for help immediately, you can call a crisis hotline or go to the nearest emergency room. You are not alone and there are people who"
+  }
+]
